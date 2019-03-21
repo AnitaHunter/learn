@@ -1,17 +1,17 @@
 img {
-    width: 25%;
+    width: 15%;
   }
 
   header {
     grid-area: header;
-    color: white;
+    color: palevioletred;
     padding: 10px;
     font-family: 'Gill Sans';
     font-size: 200%;
     text-align: center;
-    background-image: url('./bridge.jpg');
+    background-image: url('https://static01.nyt.com/images/2016/05/03/world/what-in-the-world/WITW-PROMO/WITW-PROMO-videoSixteenByNineJumbo1600.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: left;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ img {
   }
   nav {
     grid-area: nav;
-    background-color: #2d2f77;
+    background-color: #df188c;
     color: white;
     padding: 10px;
     text-decoration: none;
@@ -34,7 +34,7 @@ img {
   
   nav ul li a {
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
   }
   
   nav ul li {
@@ -43,7 +43,7 @@ img {
   
   footer {
       grid-area: footer;
-    color: #2d2f77;
+    color:palevioletred;
     text-align: center;
   }
 
